@@ -11,10 +11,12 @@ Some important terms
 */
 
 function countDownFrom(x) {
+  // base case
   if (x <= 0) {
     return;
   }
   console.log(x);
+  // recursive case
   countDownFrom(x - 1);
 }
 
